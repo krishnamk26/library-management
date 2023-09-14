@@ -29,7 +29,6 @@ export const Book = () => {
     const [book, setBook] = useState(null)
     const [chartOptions, setChartOptions] = useState(null)
     const [openTab, setOpenTab] = useState(0)
-
     const borrowBook = () => {
         if (book && user) {
             BackendApi.user

@@ -1,4 +1,4 @@
-const { BookApi } = require("./book")
+const { BookApi } = require("./book").default
 const { UserApi } = require("./user")
 
 const BackendApi = {
