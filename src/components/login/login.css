@@ -1,0 +1,8 @@
+.hint{
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
